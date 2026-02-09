@@ -1,0 +1,21 @@
+button {
+  background-color: peachpuff;
+  color: #222;
+}
+
+.primary {
+  background-color: royalblue;
+  color: white;
+  padding: 1rem;
+}
+.primary:disabled {
+  background-color: rgb(0, 255, 55);
+  color: white;
+}
+.secondary {
+  background-color: gainsboro;
+}
+
+button:disabled {
+  background-color: crimson;
+}

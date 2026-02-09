@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  place-items: center;
+  gap: 16px;
+  background: #fff;
+  color: #222;
+  padding: 1rem;
+  border-radius: 4px;
+}

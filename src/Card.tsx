@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 function Card() {
   const [count, setCount] = useState(100_000_000)
+
   return (
     <div className="card">
       <button onClick={() => setCount((count) => count + 1)}>
